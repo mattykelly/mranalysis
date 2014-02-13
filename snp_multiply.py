@@ -37,5 +37,5 @@ def reducer(key, list_of_values):
 # Do not modify below this line
 # =============================
 if __name__ == '__main__':
-	inputdata = open('wide_data.json')
+	inputdata = open('data/wide_data.json')
 	mr.execute(inputdata, mapper, reducer)
